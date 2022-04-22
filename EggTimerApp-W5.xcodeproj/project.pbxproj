@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA31F682812B00D0058843E /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAA31F672812B00D0058843E /* alarm_sound.mp3 */; };
+		FAAB462E2811DF21008399F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462D2811DF21008399F7 /* AppDelegate.swift */; };
+		FAAB46302811DF21008399F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462F2811DF21008399F7 /* SceneDelegate.swift */; };
+		FAAB46322811DF21008399F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB46312811DF21008399F7 /* ViewController.swift */; };
+		FAAB46352811DF21008399F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAB46332811DF21008399F7 /* Main.storyboard */; };
+		FAAB46372811DF23008399F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAB46362811DF23008399F7 /* Assets.xcassets */; };
+		FAAB463A2811DF23008399F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAB46382811DF23008399F7 /* LaunchScreen.storyboard */; };
+		FAAB46422811EBC5008399F7 /* SoftBoiledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB46412811EBC5008399F7 /* SoftBoiledViewController.swift */; };
+		FAAB46442811EBD3008399F7 /* MediumBoiledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB46432811EBD3008399F7 /* MediumBoiledViewController.swift */; };
+		FAAB46462811EBE2008399F7 /* HardBoiledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB46452811EBE2008399F7 /* HardBoiledViewController.swift */; };
+		FAAB464B2811FA19008399F7 /* soft_egg.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAB464A2811FA19008399F7 /* soft_egg.png */; };
+		FAAB464D2811FA1F008399F7 /* medium_egg.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAB464C2811FA1F008399F7 /* medium_egg.png */; };
+		FAAB464F2811FA23008399F7 /* hard_egg.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAB464E2811FA23008399F7 /* hard_egg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAA31F672812B00D0058843E /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = ../../../alarm_sound.mp3; sourceTree = "<group>"; };
+		FAAB462A2811DF21008399F7 /* EggTimerApp-W5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EggTimerApp-W5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAB462D2811DF21008399F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAAB462F2811DF21008399F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAAB46312811DF21008399F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAAB46342811DF21008399F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAAB46362811DF23008399F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAAB46392811DF23008399F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAAB463B2811DF23008399F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAB46412811EBC5008399F7 /* SoftBoiledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftBoiledViewController.swift; sourceTree = "<group>"; };
+		FAAB46432811EBD3008399F7 /* MediumBoiledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumBoiledViewController.swift; sourceTree = "<group>"; };
+		FAAB46452811EBE2008399F7 /* HardBoiledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardBoiledViewController.swift; sourceTree = "<group>"; };
+		FAAB464A2811FA19008399F7 /* soft_egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soft_egg.png; path = ../../../soft_egg.png; sourceTree = "<group>"; };
+		FAAB464C2811FA1F008399F7 /* medium_egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medium_egg.png; path = ../../../medium_egg.png; sourceTree = "<group>"; };
+		FAAB464E2811FA23008399F7 /* hard_egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hard_egg.png; path = ../../../hard_egg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAB46272811DF21008399F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAB46212811DF21008399F7 = {
+			isa = PBXGroup;
+			children = (
+				FAAB462C2811DF21008399F7 /* EggTimerApp-W5 */,
+				FAAB462B2811DF21008399F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAB462B2811DF21008399F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB462A2811DF21008399F7 /* EggTimerApp-W5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAB462C2811DF21008399F7 /* EggTimerApp-W5 */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB46472811EBE8008399F7 /* Model */,
+				FAAB46482811EBF4008399F7 /* View */,
+				FAAB46492811EC01008399F7 /* Controller */,
+				FAAB462D2811DF21008399F7 /* AppDelegate.swift */,
+				FAAB462F2811DF21008399F7 /* SceneDelegate.swift */,
+				FAAB46362811DF23008399F7 /* Assets.xcassets */,
+				FAAB46382811DF23008399F7 /* LaunchScreen.storyboard */,
+				FAAB463B2811DF23008399F7 /* Info.plist */,
+				FAAB464A2811FA19008399F7 /* soft_egg.png */,
+				FAAB464C2811FA1F008399F7 /* medium_egg.png */,
+				FAAB464E2811FA23008399F7 /* hard_egg.png */,
+				FAA31F672812B00D0058843E /* alarm_sound.mp3 */,
+			);
+			path = "EggTimerApp-W5";
+			sourceTree = "<group>";
+		};
+		FAAB46472811EBE8008399F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAAB46482811EBF4008399F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB46332811DF21008399F7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAAB46492811EC01008399F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB46312811DF21008399F7 /* ViewController.swift */,
+				FAAB46412811EBC5008399F7 /* SoftBoiledViewController.swift */,
+				FAAB46432811EBD3008399F7 /* MediumBoiledViewController.swift */,
+				FAAB46452811EBE2008399F7 /* HardBoiledViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAB46292811DF21008399F7 /* EggTimerApp-W5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAB463E2811DF23008399F7 /* Build configuration list for PBXNativeTarget "EggTimerApp-W5" */;
+			buildPhases = (
+				FAAB46262811DF21008399F7 /* Sources */,
+				FAAB46272811DF21008399F7 /* Frameworks */,
+				FAAB46282811DF21008399F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EggTimerApp-W5";
+			productName = "EggTimerApp-W5";
+			productReference = FAAB462A2811DF21008399F7 /* EggTimerApp-W5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAB46222811DF21008399F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FAAB46292811DF21008399F7 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FAAB46252811DF21008399F7 /* Build configuration list for PBXProject "EggTimerApp-W5" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAAB46212811DF21008399F7;
+			productRefGroup = FAAB462B2811DF21008399F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAB46292811DF21008399F7 /* EggTimerApp-W5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAAB46282811DF21008399F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA31F682812B00D0058843E /* alarm_sound.mp3 in Resources */,
+				FAAB463A2811DF23008399F7 /* LaunchScreen.storyboard in Resources */,
+				FAAB464B2811FA19008399F7 /* soft_egg.png in Resources */,
+				FAAB464F2811FA23008399F7 /* hard_egg.png in Resources */,
+				FAAB464D2811FA1F008399F7 /* medium_egg.png in Resources */,
+				FAAB46372811DF23008399F7 /* Assets.xcassets in Resources */,
+				FAAB46352811DF21008399F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAB46262811DF21008399F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAB46322811DF21008399F7 /* ViewController.swift in Sources */,
+				FAAB462E2811DF21008399F7 /* AppDelegate.swift in Sources */,
+				FAAB46302811DF21008399F7 /* SceneDelegate.swift in Sources */,
+				FAAB46422811EBC5008399F7 /* SoftBoiledViewController.swift in Sources */,
+				FAAB46462811EBE2008399F7 /* HardBoiledViewController.swift in Sources */,
+				FAAB46442811EBD3008399F7 /* MediumBoiledViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAAB46332811DF21008399F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAB46342811DF21008399F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAAB46382811DF23008399F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAB46392811DF23008399F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAAB463C2811DF23008399F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAAB463D2811DF23008399F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAAB463F2811DF23008399F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KBC8FTKD3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EggTimerApp-W5/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umitbakidikbiyik.EggTimerApp-W5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAAB46402811DF23008399F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KBC8FTKD3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EggTimerApp-W5/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umitbakidikbiyik.EggTimerApp-W5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAB46252811DF21008399F7 /* Build configuration list for PBXProject "EggTimerApp-W5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAB463C2811DF23008399F7 /* Debug */,
+				FAAB463D2811DF23008399F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAB463E2811DF23008399F7 /* Build configuration list for PBXNativeTarget "EggTimerApp-W5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAB463F2811DF23008399F7 /* Debug */,
+				FAAB46402811DF23008399F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAB46222811DF21008399F7 /* Project object */;
+}
